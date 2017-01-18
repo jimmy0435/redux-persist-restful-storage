@@ -14,12 +14,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var AsyncHttpStorage = function () {
-    function AsyncHttpStorage() {
-        _classCallCheck(this, AsyncHttpStorage);
+var AsyncRESTfulStorage = function () {
+    function AsyncRESTfulStorage() {
+        _classCallCheck(this, AsyncRESTfulStorage);
     }
 
-    _createClass(AsyncHttpStorage, [{
+    _createClass(AsyncRESTfulStorage, [{
         key: 'getItem',
         value: function getItem(key, cb) {
             (0, _isomorphicFetch2.default)('/api/v1/getItem', {
@@ -91,7 +91,7 @@ var AsyncHttpStorage = function () {
         }
     }]);
 
-    return AsyncHttpStorage;
+    return AsyncRESTfulStorage;
 }();
 
-exports.default = AsyncHttpStorage;
+exports.default = AsyncRESTfulStorage;

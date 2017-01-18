@@ -1,6 +1,6 @@
 {
   "name": "redux-persist-restful-storage",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "use RESTful storage for redux-persist",
   "main": "index.js",
   "scripts": {
