@@ -25,6 +25,7 @@ You need to build your own RESTful API server to communicate with redux-persist.
 
 To run with
 ```bash
-npm install
+npm init
+npm install body-parser express node-localstorage
 node nodeApiExample.js
 ```
